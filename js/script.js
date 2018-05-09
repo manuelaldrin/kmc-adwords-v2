@@ -10,6 +10,7 @@
 			this.modalLinksFunction();
 			// this.fpimageheightFunction();
 			this.linksFunction();
+			this.scrollFunction();
 		},
 
 		fullpageFunction: function(){
@@ -165,7 +166,26 @@
 			$('.tagline-btn a').click(function() {
 				$('.onepage-pagination li').find('a').attr('href','#4').trigger('click');
 			});			
-		}
+		},
+
+		scrollFunction: function(){
+			// ===== Scroll to Top ==== 
+			// if($(window).width() > 992){
+				// $(window).scroll(function() {
+				//     if ($(this).scrollTop() > 150) {        
+				//         $('#return-to-top').show();   
+				//     } else {
+				//         $('#return-to-top').hide();  
+				//     }
+				// });
+				// $('#return-to-top').click(function() {     
+				//     $('body,html').animate({
+				//         scrollTop : 0       
+				//     }, 500);
+				// });
+			
+			
+		},
 
 
 
