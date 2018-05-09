@@ -759,14 +759,18 @@ body{
 
 /*Featured Images*/
 .featprop-wrap{
-	padding: 80px 0 100px;
 	overflow: hidden;
+	background: url(images/fpbg.jpg) no-repeat center / cover;
 }
+
+	.featprop-container {
+	    padding: 60px 30px;
+	    background: rgba(0, 0, 0, 0.5);
+	}
 
 	.featprop-item{
 		position: relative;
 		overflow: hidden;
-		border: 5px solid #000;
 	}
 
 	.featprop-item .featprop-img::before {
@@ -832,7 +836,7 @@ body{
 	    left: 50%;
 	    top: 50%;
 	    transform: translateX(-50%) translateY(-50%);
-	    font-size: 15px;
+	    font-size: 18px;
 	    text-align: center;
 	    color: #fff;
 	    line-height: 1.5;
