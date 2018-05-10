@@ -1199,6 +1199,10 @@ MEDIA QUERIES
 		width: 100%;
 		margin: 0;
 	}
+
+	.tagline {
+	    font-size: 40px;
+	}
 }
 
 /* Extra Small Devices, Phones */ 
